@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Yeon+Sung&display=swap
+/* @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Yeon+Sung&display=swap */
 
 
 
@@ -6,13 +6,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Yeon Sung', cursive;
+    /* font-family: 'Yeon Sung', cursive; */
+}
+
+body{
+    height:100vh;
+    background: linear-gradient(gray, white, gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
     width: 85vw;
-    background-color: blueviolet;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     max-width: 700px;
     min-height: 40vh;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 
+}
+
+h2{
+    text-align: center;
+    margin: 35px;
+
+}
+
+.todo-add{
+    text-align: center;
+}
+
+#todo-input{
+    padding: 7px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+#todo-button{
+    padding: 7px;
+    border-radius: 5px;
 }
